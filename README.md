@@ -1,5 +1,7 @@
 CSCI 4448 OOAD
 ==============
+Tyler Mooney
+
 Repository for Object Oriented Analysis and Design at CU Boulder Spring 2019
 
 Homework 1
