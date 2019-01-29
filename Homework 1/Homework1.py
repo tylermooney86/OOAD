@@ -38,7 +38,7 @@ class Triangle(Shape):
 
     def display(self):
         print("Triangle " + str(self.x) + "," + str(self.y) + "," + str(self.z))
-
+# A class for simulating a database of shapes
 class Shapes:
     def __init__(self):
         
@@ -46,7 +46,7 @@ class Shapes:
 
     def addShape(self,shape):
         self.shapes.append(shape)
-
+    # sorts list of shapes based on z coordinate
     def sort(self):
         self.shapes = sorted(self.shapes, key=lambda x: x.z, reverse=True)
 
